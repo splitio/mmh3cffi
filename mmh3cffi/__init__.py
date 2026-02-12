@@ -1,5 +1,4 @@
 """Python frontend for the C implementation of murmurhash3."""
-from builtins import bytes
 from mmh3cffi._cimpl import ffi, lib
 
 def hash_str(to_hash, seed=0):
